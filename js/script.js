@@ -129,7 +129,7 @@ let lizard = new Card("Lizard", 24, 6, 11, 1, 25, 7, "images/lizard.jpg", "Dr. C
 let captainAmerica = new Card("Captain America", 28, 10, 10, 2, 25, 9, "images/captain-america.jpg", "During the dark days of the early 1940s, a covert U.S. Military experiment turned Steve Rogers into America's first Super-Soldier, Captain America.");
 
 captainAmerica.show();
-captainAmerica.choiceSize(13);
+// captainAmerica.choiceSize(13);
 
 
 
