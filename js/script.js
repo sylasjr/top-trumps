@@ -1,6 +1,5 @@
 // document.getElementById("demo").innerHTML = "Renato";
 
-
 class Card {
     constructor(name, strength, skill, size, wisecracks, mistique, topTrump, imagePath, description) {
         this.cname = name;
@@ -128,7 +127,7 @@ let antMan = new Card("Ant-Man", 10, 10, 1, 1, 25, 7, "images/ant-man.jpg", "Dr.
 let lizard = new Card("Lizard", 24, 6, 11, 1, 25, 7, "images/lizard.jpg", "Dr. Curtis Curt Connors was born and raised in Coral Gables, Florida. He attended Medical school graduating with twin doctorates in biology and biochemistry. It was in college he met Martha and together they had a son Billy.");
 let captainAmerica = new Card("Captain America", 28, 10, 10, 2, 25, 9, "images/captain-america.jpg", "During the dark days of the early 1940s, a covert U.S. Military experiment turned Steve Rogers into America's first Super-Soldier, Captain America.");
 
-captainAmerica.show();
+lizard.show();
 // captainAmerica.choiceSize(13);
 
 
