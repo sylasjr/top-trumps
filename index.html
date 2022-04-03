@@ -5,60 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c24ffacf8c.js" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Super Trumps</title>
+    <title>Card Game</title>
 </head>
-<div id="cimage" class="animate__animated animate__pulse animate__fast animate__infinite">
-    <span id="border-two" class="animate__animated animate__pulse animate__slower animate__infinite">
-    <span id="border-one"class="animate__animated animate__pulse animate__fast animate__infinite">
-        <img id="cimagepath" src="images/placeholder.jpg">
-    </span>
-    </span>
-</div>
-<h1 id="cname">Carnage</h1>
-
-<div id="cintro">The symbiote known as Carnage is the spawn of the Venom symbiote and is most often bonded to the sociopathic serial-killer Cletus Kasady.
-</div>
-<div class="card-container">
-    <div class="desc" id="cstrength-cont">
-        <div id="cstrength" class="crating">40</div>
-        <div class="title">Strength</div>
-    </div>
-    <div class="desc" id="cskill-cont">
-        <div id="cskill" class="crating">2</div>
-        <div class="title">Skill</div>
-    </div>
-    <div class="desc" id="csize-cont">
-        <div id="csize" class="crating">12</div>
-        <div class="title">Size</div>
-    </div>
-    <div class="desc" id="cwisecracks-cont">
-        <div id="cwisecracks" class="crating">1</div>
-        <div class="title">Wisecracks</div>
-    </div>
-    <div class="desc" id="cmistique-cont">
-        <div id="cmistique" class="crating">30</div>
-        <div class="title">Mistique</div>
-    </div>
-    <div class="desc" id="ctoptrump-cont">
-        <div id="ctoptrump" class="crating">6</div>
-        <div class="title">Top Trump</div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
 
 <body>
+    <div class="container">
+        <div id="card">
+            <div id="image-container">
+            </div>
 
-    <script type="text/javascript" src="js/script.js"></script>
+            <div class="details">
+                <div class="bio ">
+                    <div id="characterName">Stan Lee</div>
+                    <div class="short-bio ">
+                        <span id="type">Author</span>
+                    </div>
+                    <hr>
+
+                    <div id="intro">Comics icon Stan Lee, creator of the Mighty Marvel Universe, has set about to teach everything he knows about writing and creating comic book characters</div>
+                </div>
+                <div class="actions">
+                    <div class="action-container strength" id="strength-btn">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <span id="strength" class="value">10</span>
+                        <span class="desc ">Strength</span>
+                    </div>
+                    <div class="action-container skill" id="skill-btn">
+                        <i class="fa-solid fa-hand-fist"></i>
+                        <span id="skill" class="value">50</span>
+                        <span class="desc ">Skill</span>
+                    </div>
+                    <div class="action-container size" id="size-btn">
+                        <i class="fa-solid fa-up-down"></i>
+                        <span id="size" class="value">6</span>
+                        <span class="desc ">Size</span>
+                    </div>
+                    <div class="action-container mistique" id="mistique-btn">
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                        <span id="mistique" class="value">99 </span>
+                        <span class="desc">Mistique</span>
+                    </div>
+                </div>
+                <div class="battle-container">
+                    <div class="action-container" id="battle-btn">
+                        Battle
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="status-area">
+            <div class="enemy-info">
+                <div id="enemy-photo"></div>
+                <div id="enemy-name"></div>
+            </div>
+            <div id="print-message">
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript " src="js/script.js "></script>
+
 </body>
 
 </html>
